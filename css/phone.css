@@ -1,0 +1,63 @@
+/* For screens under 768px */
+#navbar {
+  flex-direction: column;
+  text-align: center;
+}
+
+#navbar ul {
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+#navbar ul li {
+  margin: 8px 0;
+}
+
+/* Hero section */
+#home {
+  height: auto;
+  padding: 40px 20px;
+}
+#home h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Services */
+#services {
+  flex-direction: column;
+  align-items: center;
+}
+#services .box {
+  width: 90%;
+  margin: 10px 0;
+}
+
+/* Clients */
+#clients {
+  flex-wrap: wrap;
+}
+.clients-item {
+  width: 40%;
+  margin: 10px;
+}
+.clients-item img {
+  height: 70px;
+  width: 70px;
+}
+
+/* Contact */
+.contact-box form {
+  width: 90%;
+}
+.contact-box input,
+.contact-box textarea {
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+}
